@@ -1,0 +1,55 @@
+body,
+html {
+    height: 100%;
+}
+
+.completo {
+    background: darkgrey;
+}
+
+.columna-juego {
+    border: 1px solid black;
+}
+
+.fila-juego {
+    /*Bootstrap viene con h-25... pero no con h-33!*/
+    height: 25vh;
+}
+
+.cuadro {
+    /* visibility no anda porque no tiene valores numéricos que se puedan incrementar o decrementar
+visibility: hidden;
+*/
+    opacity: 0;
+    transition: opacity ease 0.2s;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.negro {
+    background-color: black;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.azul {
+    background-color: blue;
+}
+
+#fin-juego {
+    display: none;
+}

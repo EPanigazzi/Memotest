@@ -1,0 +1,20 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "empezar": "http-server",
+    "cypress-run": "cypress run",
+    "cypress-dev": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "cypress": "^5.6.0"
+  }
+}
